@@ -1,0 +1,68 @@
+body {
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    transition-property: left, top;
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    /* background-color: blue; */
+}
+
+.rock-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+    gap: 10px;
+    margin-left: 500px;
+}
+
+.paper-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.scissors-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+    gap: 10px;
+    margin-top: -310px;
+    margin-left: 950px;
+}
+
+/* .rock {
+    top: 400px;
+    left: 400px;
+} */
+
+
+/* .paper {
+    top: 400px;
+    left: 300px;
+} */
+
+
+
+.scissors {
+    width: 30px;
+    /* top: 100px;
+    left: 600px; */
+}
+
